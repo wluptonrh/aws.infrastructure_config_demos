@@ -19,9 +19,9 @@
       ansible.builtin.include_role:
         name: lab.aws_infrastructure_config_demos.create_vm
 
-    - name: Add VM to AAP host group
-      awx.awx.group:
-        name: "{{ vm_application }}"
-        inventory: Demo Inventory
-        hosts:
-          - "{{ create_vm_vm_name }}"
+    # - name: Add VM to AAP host group
+    #   awx.awx.group:
+    #     name: "{{ vm_application }}"
+    #     inventory: Demo Inventory
+    #     hosts:
+    #       - "{{ create_vm_vm_name }}"
