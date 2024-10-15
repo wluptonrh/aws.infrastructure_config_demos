@@ -25,4 +25,4 @@
         description: "Local Host Group"
         inventory: Default Inventory
         hosts:
-          - "{{ {{ create_vm_vm_name }}"
+          - "{{ create_vm_vm_name }}"
