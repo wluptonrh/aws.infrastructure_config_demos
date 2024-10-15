@@ -22,6 +22,6 @@
     - name: Add VM to AAP host group
       awx.awx.group:
         name: "{{ vm_application }}"
-        inventory: Default Inventory
+        inventory: Demo Inventory
         hosts:
           - "{{ create_vm_vm_name }}"
