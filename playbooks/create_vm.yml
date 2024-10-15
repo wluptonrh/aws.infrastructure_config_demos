@@ -22,7 +22,6 @@
     - name: Add VM to AAP host group
       awx.awx.group:
         name: "{{ vm_application }}"
-        description: "Local Host Group"
         inventory: Default Inventory
         hosts:
           - "{{ create_vm_vm_name }}"
